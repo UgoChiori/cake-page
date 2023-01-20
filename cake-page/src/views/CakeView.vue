@@ -36,6 +36,19 @@ import cake9 from "../assets/Cakes/cake9.avif";
 import cake10 from "../assets/Cakes/cake10.avif";
 import cake11 from "../assets/Cakes/cake11.avif";
 import cake12 from "../assets/Cakes/cake12.avif";
+import cupcake1 from "../assets/Cakes/cupcake1.avif";
+import cupcake2 from "../assets/Cakes/cupcake2.avif";
+import cupcake3 from "../assets/Cakes/cupcake3.avif";
+import cupcake4 from "../assets/Cakes/cupcake4.avif";
+import cupcake5 from "../assets/Cakes/cupcake5.avif";
+import cupcake6 from "../assets/Cakes/cupcake6.avif";
+import cupcake7 from "../assets/Cakes/cupcake7.avif";
+import cupcake8 from "../assets/Cakes/cupcake8.avif";
+import cupcake9 from "../assets/Cakes/cupcake9.avif";
+import cupcake10 from "../assets/Cakes/cupcake10.avif";
+import cupcake11 from "../assets/Cakes/cupcake11.avif";
+import cupcake12 from "../assets/Cakes/cupcake12.avif";
+
 
 export default {
   data() {
@@ -125,6 +138,91 @@ export default {
           description: "This is cake 12",
           price: 120,
         },
+        {
+          id: 13,
+          name: "Cupcake 1",
+          image: cupcake1,
+          description: "This is cupcake 1",
+          price: "10,000",
+        },
+        {
+          id: 14,
+          name: "Cupcake 2",
+          image: cupcake2,
+          description: "This is cupcake 2",
+          price: "20,000",
+        },
+        {
+          id: 15,
+          name: "Cupcake 3",
+          image: cupcake3,
+          description: "This is cupcake 3",
+          price: "30,000",
+        },
+        {
+          id: 16,
+          name: "Cupcake 4",
+          image: cupcake4,
+          description: "This is cupcake 4",
+          price: "40,000",
+        },
+        {
+          id: 17,
+          name: "Cupcake 5",
+          image: cupcake5,
+          description: "This is cupcake 5",
+          price: "50,000",
+        },
+        {
+          id: 18,
+          name: "Cupcake 6",
+          image: cupcake6,
+          description: "This is cupcake 6",
+          price: "60,000",
+        },
+        {
+
+          id: 19,
+          name: "Cupcake 7",
+          image: cupcake7,
+          description: "This is cupcake 7",
+          price: "70,000",
+        },
+        {
+          id: 20,
+          name: "Cupcake 8",
+          image: cupcake8,
+          description: "This is cupcake 8",
+          price: "80,000",
+        },
+        {
+          id: 21,
+          name: "Cupcake 9",
+          image: cupcake9,
+          description: "This is cupcake 9",
+          price: "90,000",
+        },
+        {
+          id: 22,
+          name: "Cupcake 10",
+          image: cupcake10,
+          description: "This is cupcake 10",
+          price: "100,000",
+        },
+        {
+          id: 23,
+          name: "Cupcake 11",
+          image: cupcake11,
+          description: "This is cupcake 11",
+          price: "110,000",
+        },
+        {
+          id: 24,
+          name: "Cupcake 12",
+          image: cupcake12,
+          description: "This is cupcake 12",
+          price: "120,000",
+        }
       ],
     };
   },
@@ -143,7 +241,7 @@ export default {
 .cakes {
   border-radius: 10px;
 }
-h1{
+h1 {
   color: white;
 }
 @media (max-width: 768px) {
